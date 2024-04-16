@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+*{
+    margin: 0;
+    margin-bottom: 2vh;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #47424214;
+}
+
+
+.card{
+    width: 35vw;
+    /* height: auto; */
+    background: linear-gradient(91deg, #e7f9a0de, #07ff8066);
+    color: black;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+}
+
+.search input{
+    height: 7vh;
+    width: 26vw;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 2px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search button{
+    height: 7vh;
+    width: 3vw;
+    margin: 2px;
+    border-width: 1px;
+    border-radius: 15px;
+    background: url(./images/search-bar-01.png);
+    background-repeat:no-repeat ;
+    background-size:contain;
+    /* border: 0; */
+    /* outline: 0; */
+}
+
+.search button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.weather-icon{
+    height: 35vh;
+    width: 16vw;
+    background: url(./images/sunny_rain_weather_icon_150661.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wind-icon{
+    height: 10vh;
+    width: 5vw;
+    background: url(./images/wind_120368.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+.humid-icon{
+    height: 10vh;
+    width: 5vw;
+    background: url(./images/humid.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+
+.col{
+    color:#338b75;
+    font-weight: bold;
+
+
+
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    color:#338b75;
+    display: none;
+}
+
+/* .btn{
+    height:4vh;
+    width: 4vw;
+
+} */
